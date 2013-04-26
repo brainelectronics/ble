@@ -23,6 +23,7 @@
 		DFEADB78172912F8006976FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEADB53172912F8006976FA /* Foundation.framework */; };
 		DFEADB80172912F8006976FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFEADB7E172912F8006976FA /* InfoPlist.strings */; };
 		DFEADB83172912F8006976FA /* BLETests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEADB82172912F8006976FA /* BLETests.m */; };
+		DFEADB8D17291309006976FA /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEADB8C17291309006976FA /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		DFEADB7F172912F8006976FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DFEADB81172912F8006976FA /* BLETests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLETests.h; sourceTree = "<group>"; };
 		DFEADB82172912F8006976FA /* BLETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLETests.m; sourceTree = "<group>"; };
+		DFEADB8C17291309006976FA /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFEADB8D17291309006976FA /* CoreBluetooth.framework in Frameworks */,
 				DFEADB52172912F8006976FA /* UIKit.framework in Frameworks */,
 				DFEADB54172912F8006976FA /* Foundation.framework in Frameworks */,
 				DFEADB56172912F8006976FA /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +90,7 @@
 		DFEADB45172912F8006976FA = {
 			isa = PBXGroup;
 			children = (
+				DFEADB8C17291309006976FA /* CoreBluetooth.framework */,
 				DFEADB57172912F8006976FA /* BLE */,
 				DFEADB7B172912F8006976FA /* BLETests */,
 				DFEADB50172912F8006976FA /* Frameworks */,
