@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF081F071732F4650010CEE7 /* Bluetooth-image.png in Resources */ = {isa = PBXBuildFile; fileRef = DF081F061732F4650010CEE7 /* Bluetooth-image.png */; };
+		DF081F09173307530010CEE7 /* Bluetooth-1.png in Resources */ = {isa = PBXBuildFile; fileRef = DF081F08173307530010CEE7 /* Bluetooth-1.png */; };
+		DF081F0B173307990010CEE7 /* stop-32.png in Resources */ = {isa = PBXBuildFile; fileRef = DF081F0A173307990010CEE7 /* stop-32.png */; };
 		DFEADB52172912F8006976FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEADB51172912F8006976FA /* UIKit.framework */; };
 		DFEADB54172912F8006976FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEADB53172912F8006976FA /* Foundation.framework */; };
 		DFEADB56172912F8006976FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEADB55172912F8006976FA /* CoreGraphics.framework */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF081F061732F4650010CEE7 /* Bluetooth-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bluetooth-image.png"; sourceTree = "<group>"; };
+		DF081F08173307530010CEE7 /* Bluetooth-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bluetooth-1.png"; sourceTree = "<group>"; };
+		DF081F0A173307990010CEE7 /* stop-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stop-32.png"; sourceTree = "<group>"; };
 		DFEADB4E172912F8006976FA /* BLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFEADB51172912F8006976FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DFEADB53172912F8006976FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,7 +96,6 @@
 		DFEADB45172912F8006976FA = {
 			isa = PBXGroup;
 			children = (
-				DFEADB8C17291309006976FA /* CoreBluetooth.framework */,
 				DFEADB57172912F8006976FA /* BLE */,
 				DFEADB7B172912F8006976FA /* BLETests */,
 				DFEADB50172912F8006976FA /* Frameworks */,
@@ -110,6 +115,7 @@
 		DFEADB50172912F8006976FA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DFEADB8C17291309006976FA /* CoreBluetooth.framework */,
 				DFEADB51172912F8006976FA /* UIKit.framework */,
 				DFEADB53172912F8006976FA /* Foundation.framework */,
 				DFEADB55172912F8006976FA /* CoreGraphics.framework */,
@@ -150,6 +156,9 @@
 			children = (
 				DFEADB81172912F8006976FA /* BLETests.h */,
 				DFEADB82172912F8006976FA /* BLETests.m */,
+				DF081F0A173307990010CEE7 /* stop-32.png */,
+				DF081F08173307530010CEE7 /* Bluetooth-1.png */,
+				DF081F061732F4650010CEE7 /* Bluetooth-image.png */,
 				DFEADB7C172912F8006976FA /* Supporting Files */,
 			);
 			path = BLETests;
@@ -248,6 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFEADB80172912F8006976FA /* InfoPlist.strings in Resources */,
+				DF081F071732F4650010CEE7 /* Bluetooth-image.png in Resources */,
+				DF081F09173307530010CEE7 /* Bluetooth-1.png in Resources */,
+				DF081F0B173307990010CEE7 /* stop-32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +467,7 @@
 				DFEADB88172912F8006976FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFEADB89172912F8006976FA /* Build configuration list for PBXNativeTarget "BLETests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +476,7 @@
 				DFEADB8B172912F8006976FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
